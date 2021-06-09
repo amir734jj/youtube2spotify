@@ -307,7 +307,7 @@
   {#if !syncTable.length}
     <h1>YouTube To Spotify</h1>
     <p>
-      <a href="https://github.com/yt2sp/yt2sp">Github page</a>
+      <a href="https://github.com/amir734jj/youtube2spotify">Github page</a>
     </p>
     <p>
       This tool synchronizes your YouTube playlists to Spotify playlists,
