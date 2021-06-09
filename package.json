@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --port $PORT",
+    "start": "sirv public --host 0.0.0.0 --port $PORT",
     "deploy": "gh-pages -d public",
     "postinstall": "npm run build"
   },
