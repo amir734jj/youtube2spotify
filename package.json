@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --port 80",
+    "start": "sirv public --port $PORT",
     "deploy": "gh-pages -d public"
   },
   "devDependencies": {
