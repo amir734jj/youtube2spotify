@@ -75,7 +75,7 @@
   }
 
   function authSpotify() {
-    var redirectUrlCleaned = encodeURIComponent(REDIRECT);
+    var redirectUrlCleaned = REDIRECT;
     var url = `https://accounts.spotify.com/authorize?client_id=${'SPOTIFY_CLIENTID'}&redirect_uri=${redirectUrlCleaned}&scope=${SPOTIFY_SCOPE}&response_type=token&state=${SPOTIFY_STATE}`
     if (spotifyUser) {
       url += '&show_dialog=true'
