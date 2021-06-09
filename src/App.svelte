@@ -2,7 +2,7 @@
   import { onMount } from 'svelte'
   import loader from '@beyonk/async-script-loader'
 
-  const REDIRECT = 'https://localhost:3000/'
+  const REDIRECT = window.location.href.slice(0, -1)
   const SPOTIFY_STATE = 'yt2sp'
   const GOOGLE_SCOPE = 'https://www.googleapis.com/auth/youtube.readonly'
   const SPOTIFY_SCOPE =
