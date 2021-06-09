@@ -403,6 +403,65 @@
     <button on:click={sync} disabled={!syncPossible}>
       Search for items to be synchronized
     </button>
+  
+  
+  
+<pre>
+----------------------..--:+shddddmmmmmmmddddddddddddddds:..........-/////:::::::::::::::::::::::::/
+--------------------....-/shddddmmmmmmmmmmmmmmmdmmmdddmddy/.........:////:::::::::::::::::::::::::::
+------------------....-:+yddddddmmmmNNmmmmmmmmmmNNmmdhdmmdh+-......./////:::::::::::::::::::::::::::
+----------------..----/sddhhhddddmmNNNmmmmmmmmmmNNmmmddddmddo-......////::::::::::::::::::::::::::::
+----------------.---:ohdddddddddmmNNNNmmmmmmmmmmmNNmmdddddmdds:...`-///:::::::::::::::::::::::::::::
+--------------.----/yddddmmddddmmNNmNNmmmNmmmmmmmmNmdddmddmmddh/-.`://::::::-:::::::::::::::::::::::
+-------------...-:ohddddmddddddmmmmdNNmNNmmmmmmmmmmmdddddddmmddh+-.:/::::------:::::::::::::::::::::
+-------------.--:ohddmmmdddhddddmdhhmNNmNmmmmmmmmddmmdddddddmmmmh+-//::::-------::::::::::::::::::::
+-----------...-:ohdmmmmddddddddddhyydmNmmNmmmmddddddddddddddmmddmho+::::----------:-::::::::::::::::
+-----------.---/ydmmmNdddddddddhhysshmmmmmNmmddddddddddddddddddddmho/:::----------::-:::::::::::::::
+--------------:odmmNNmmmdddddhhyyyooodddddmmddddddddddddddddddddddmy+/::----------::::::::::::::::::
+-------------:/ydmmNmmmdddddhyysooo+osddddddddddddmdddddddddddddddmds/::------------::::::::::::::::
+--------.----:odddmNmmmhhddhyso+++o++oyddddddddmddmmmmmmmmmmmddddddmy+:::-----------::::::::::::::::
+-------------/ydddmmmNddmmhyso++++++++sydddmmmmmmmmmmmmmmNmmmmmmdddmho/:-----------:::::::::::::::::
+----------.-:sddmmmmmNhddhyysssooo+++++oshddmmmmmmmmddmmddmmmmmmmddmds/:-----------:::::::::::::::::
+------------ohdmmmNNNmsso+++++oossso+++++osydddddddddddddhhddmmmmmddds/::-----------::::::::::::::::
+-----------ohdmmmmNNNhoooo+////+++o++++++++osyyyyysssssyyhhhmNmmmmmmdy/::---------::::::::::::::::::
+----------+ydddmmNNNMyossyysyyyo++++++//++++ooo++++++ooossyydmmdmmmmdy+::----------:::::::::::::::::
+-------.-/odddmmmNNNMyooohh/shhy+o+/+/////+oo+++osyysssssssymNmmmmmmmh+:-----------:::::::::::::::::
+-------.:+ydddmmNNNMMsoooosssysoo++///////+oo+o+:yhdoshhyssymmmmmmmmmh+:------------::::::::::::::::
+--------:+hdddmmNmNMMso+++++++++////+////++oooooosyysyhysssymmmNNmmmdy/:------------::::::::::::::::
+------.-/+hhhdmNNNNMNso++//////////+++++++++oo+++ooooooooossdmmmNNmmho:-----------::::::::::::::::::
+-------::ohyhydNmmNMNso+///////////++++++++oo+++/+++++++ooosmmmmmNmho/::--------::::::::::::::::::::
+-----.-::+yyyoodmmmNNso++//////++++++/:///+oooo+//////+++ooymmNmNmh+/:::----::::::::::::::::::::::::
+----.--::+hyy+oydmmNMyo+++//++++++++++///++ooooo+/////+++oohmmNNmh+:::::::::::::::::::::::::::::::::
+------::/odss/oosddmNdssooooooo+++ooooooossysoooo+///++ooosdmmNmd+::::::::::::::::::::::::::::::::::
+----:-:/+yso+/o+syydmNysssssyso++++++++ooooooooooo+++oossshmmmNdo/::::::::::::::::::::::::::::::::::
+--::--/+yoo///++oyyhdNdsooooosyyssoo++++++oooosssyyoossssymNmdys+/::::::::::::::::::::::::::::::::::
+::--:/+yo++/:///osyyhmmdsoo++o+shy+/+osssssssyhhyssoosssyds+//+///::::::::::::::::::::::::::::::::::
+----::/y/:/::/+///+sdmmNmsoo++++oyso:::--:/oshhsoooosssys+::-///::::::::::::::::::::::::::::::::::::
+--::-:/y:-::::::+shmNNNNNNhso++++ossoooooosyyysoooosshdy//:::///::::::::::::::::::::::::::::::::::::
+++oosyydhddddddmNNNNMMMMMMMNhs++++oosssssssysoo+osshmNNmdyso+///::::::::::::::::::::::::::::::::::::
+mmmmmmmdmmNmNNNNNNNNNMNNNNNNNmyo+++++oooooooo++osydmNMNNmmmmmmhyo+/:::::::::::::::::::::::::::::::::
+mmmmmmmmmmNmNNNNNNNNNNNNNNNNNNNdso+++++++++++osyhddmmmMNmmmmmNNNmmmdhyso+//:::::::::::::::::::::::::
+mmmmmmmmmmNNNNNNNNNNNNNNNNNNNNNNdhysooooooosyyhhhdddddNNNmmmmmNNNmmmmmmmmdddyo::::::::::::::::::::::
+mmmmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNdhyyyyyyyhhhhhhhhhhhhdNNmmmmmmmmmmmmmmmmmmmmmh/::::::::::::::::::::
+mmmmmmmNNNNNNNNNNNNNNNNNNNmmmmNNNddhhyhhhhhyyyyhyyyyyyhmNNmmmmmmmmmmmmmmmmmmmmmd+:::::::::::::::::::
+mmmmmmNNNNNNNNNNNNNNNNNNNmmmmmNNNmhhyyyyyyyyyyyyyyyyyyydmNmmmmmmmmmmmmmmmmmmmmmNh:::::::::::::::::::
+mmmmNNNNNNNNNNNNNNNNNNNNNNNmmmmNNNhyyysssssssssssssssssydNmmmmmmmmmmmmmmmmmmmmmmm+::::::::::::::::::
+mmmNNNNNNNNNNNNNNNNNNNNNNNNmmmmmNNmyssssssssssooooossssshmNmmmmmmmmmmmmmmmmmmmmmNy::::::::::::::::::
+mmmNNNNNNNNNmNNNNNmNNNmmmmmmmmmmmNNysssssssssooooooooosshdNmmmmmmmmmmmmmmmmmmmmmNd::::::::::::::::::
+mmmNNNNNNNNNNmmmmmmmNNNmmmmmmmmmmmNdsoooosssssssssosssssyydmmmmmmmmmmmmmmmmmmmmmmm/:::::::::::::::::
+mmmmmNNNNNNmmmmmmmmmmmNmmmmmmmmmmmmNysoooooooooooooooooooshNmmmmmmmmmmmmmmmmmmmmmmo:::::::::::::::::
+MmmmmmmNmmmmmmmmmmmmmmNNmmmmmmmmmmmmmssoooooooooooooooooosymmmmmmmmmmmmmmmmmmmmmmms:::::::::::::::::
+NmmmmmmmmmmmmmmmmmmmmmmNNmmmmmmmmmmmNhssooooooooooooooooosymmmmmmmmmmmmmmmmmmmmmmmh:::::::::::::::::
+mmdmmmmmmmmmmmmmmmmmmmmmNNmmmmmmmmmmNmsssoooooooooooooooooymNmmmmmmmmmmmmmmmmmmmmmd/::::::::::::::::
+NmdmmmmmmmmmmmmmmmmmmmmmNNmmmmmmmmmmNNhsssoooooooooooooooohmNmmmmmmmmmmmmmmmmmmmmmm+::::::::::::::::
+MmdmmmmmmmmmmmmmmmmmmmmmmNNmmmmmmmmmmNmssssooooooooooooooshdNmmmmmmmmmmmmmmmmmmmmmmo::::::::::::::::
+MmdmmmmmmmmmmmmmmmmmmmmmNNNNmmmmmmmmmmNdssssooooooooooooosyhNmmmmmmmmmmmmmmmmNmmmmm/::::::::::::::::
+MmddmmmmmmmmmmmmmmmmmmmmNNNNNmmmmmmmmmNNsssoooooooooooooooyhmmmmmmmmmmmmmmmNNmmmmmd/::::::::::::::::
+MmdmmmmmmmmmmmmmmmmmmmmmmNNNNNmmmmmmmmmNdssoooooooooooooooshmmmmmmmmmmmmmmmmmmmmmmd/::::::::::::::::
+</pre>
+  
+  
+  
   {:else if !syncDone.length}
     <h2>Review sync actions</h2>
     <button on:click={completeSync} disabled={syncLength === 0}>
