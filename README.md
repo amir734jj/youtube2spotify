@@ -41,7 +41,7 @@ With these, you can compile the source with the following commands (you will
 need [Node.js and npm](https://nodejs.org/) installed):
 
     $ git clone https://github.com/yt2sp/yt2sp.git
-    $ cd yt2sp
+    $ cd youtube2spotify
     $ npm install
     $ npm run build
 
